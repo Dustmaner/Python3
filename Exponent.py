@@ -10,8 +10,4 @@ print("---Welcome to the EXPONENT EXPERIENCE---")
 base = int(input("Please enter the base number to be raised: "))
 exponent = int(input("Please enter the exponent of the base number: "))
 
-
-
-
-
 print("Your result is: " + str(base) +"^"+str(exponent) + " = "+str(raise_to_power(base,exponent)))
