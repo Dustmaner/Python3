@@ -6,7 +6,12 @@ number_grid = [
 ]
 
 #print(number_grid[1][1])
-
+'''
 for row in number_grid:
     for column in row:
         print(column)
+    
+'''
+for column in number_grid:
+    for row in column:
+        print(row)
